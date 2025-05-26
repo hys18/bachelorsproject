@@ -1,0 +1,5 @@
+Comparison,OccNet chamfer-L1,OccNet chamfer-L2,OccNet normal consistency,OccNet f-scores,DeepSDF chamfer,VIoU,Dice
+mlp,0.0060,0.0001,0.9303,0.8936,0.0002,0.9063,0.9508
+nerf,0.0062,0.0001,0.5871,0.8583,0.0002,0.8998,0.9473
+ff,0.0341,0.0099,0.8763,0.8400,0.0199,0.9010,0.9479
+siren,0.0051,0.0001,0.9457,0.9632,0.0003,0.9484,0.9735
