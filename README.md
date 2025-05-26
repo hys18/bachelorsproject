@@ -71,7 +71,7 @@ This folder includes all the python files required to analyze the 3D liver meshe
 
 ## Result Files 
 
-You can download all result files generatedvia this code [here](https://drive.google.com/file/d/143FM20plOQqEcY9EF0J9Wk2K2lGK-0hy/view?usp=sharing)
+You can download all result files generated via this code [here](https://drive.google.com/file/d/143FM20plOQqEcY9EF0J9Wk2K2lGK-0hy/view?usp=sharing)
 
 ## Study Notes
 
