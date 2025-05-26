@@ -67,7 +67,7 @@ This folder includes all the python files required to analyze the 3D liver meshe
 
 *single_liver_evaluation.py* - This file was used for hyperparameter tuning. A single mesh is assessed to produce a csv file containing all the evaluation metrics for each model.
 
-*total_evaluation.py* - This file was used for evaluation across entire liver mesh dataset. Each iteration compares the ground truth mesh to its respective reconstructed mesh, then its evaluation metrics are recorded into the csv file. The average and standard deviations can be calculated after the csv file was created. It should be noted that the pred_dir must be changed according to the reconstructed meshes that are being evaluated. This can be conducted by removing the comment line for the target directory.
+*total_evaluation.py* - This file was used for evaluation across entire liver mesh dataset. Each iteration compares the ground truth mesh to its respective reconstructed mesh, then its evaluation metrics are recorded into the csv file. The average and standard deviations can be calculated after the csv file was created. It should be noted that the GPU environment is initiated at the start of each process. This can be adjusted according to the python environment the code is running in. Please also set the current working directory so that it is compatible with with the code.
 
 ## Study Notes
 
