@@ -80,6 +80,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
 # Set up for tensorboard
 tensorboard_logdir = "logs/occupancy_ffpe"
+writer = SummaryWriter(log_dir=tensorboard_logdir)
 
 # 4. Train model
 epochs = 100
