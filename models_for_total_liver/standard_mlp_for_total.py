@@ -64,9 +64,6 @@ file_list = sorted(glob.glob(os.path.join(npy_dir, "*.npy")))
 
 # Launch TensorBoard
 tensorboard_logdir = "total_logs/occupancy_mlp"
-port = 6008
-subprocess.Popen(["tensorboard", "--logdir", tensorboard_logdir, "--port", str(port)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-print(f"TensorBoard running at: http://localhost:{port}")
 
 # Training & Evaluating Predictions & Extracting Meshes
 for fpath in file_list:
