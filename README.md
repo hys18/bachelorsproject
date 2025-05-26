@@ -32,9 +32,7 @@ There are a total of 452 3D liver meshes that were reconstructed.
 
 ## Models for one liver
 
-This folder includes the python files that were used to generate a singular reconstructed 3D liver mesh. These files were used for initial testing and hyperparameter tuning phases.
-
-It should be noted that the GPU environment is initiated at the start of each process. This can be adjusted according to the python environment the code is running in. Please also set the current working directory so that it is compatible with with the code.
+This folder includes the python files that were used to generate a singular reconstructed 3D liver mesh. These files were used for initial testing and hyperparameter tuning phases. Please also set the current working directory so that it is compatible with with the code.
 
 *ffpe.py* - This includes fourier feature positional encoding for the input layer.
 
