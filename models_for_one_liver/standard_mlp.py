@@ -64,9 +64,6 @@ optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
 # Set up for tensorboard
 tensorboard_logdir = "logs/occupancy_mlp"
-port = 6009
-subprocess.Popen(["tensorboard", "--logdir", tensorboard_logdir, "--port", str(port)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-print(f"TensorBoard will run at: http://localhost:{port}")
 writer = SummaryWriter(log_dir=tensorboard_logdir)
 
 # 4. Train model
