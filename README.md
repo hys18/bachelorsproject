@@ -72,7 +72,7 @@ This folder includes all the python files required to analyze the 3D liver meshe
 ## Result Files 
 
 You can download all result files generated via this code [here](https://drive.google.com/file/d/143FM20plOQqEcY9EF0J9Wk2K2lGK-0hy/view?usp=sharing)
-
+The folder contains the reconstructed liver meshes (.ply), the training loss curve saved from Tensorboard (.svg), and hyperparameter- tuning results (.csv). 
 ## Study Notes
 
 This is a notebook file that includes the codes that were not used in the paper, but was used for analyzing the meshes during the development process. This file includes...
