@@ -69,6 +69,10 @@ This folder includes all the python files required to analyze the 3D liver meshe
 
 **total_evaluation.py** - This file was used for evaluation across entire liver mesh dataset. Each iteration compares the ground truth mesh to its respective reconstructed mesh, then its evaluation metrics are recorded into the csv file. The average and standard deviations can be calculated after the csv file was created. It should be noted that the GPU environment is initiated at the start of each process. This can be adjusted according to the python environment the code is running in. Please also set the current working directory so that it is compatible with with the code.
 
+## Result Files 
+
+You can download all result files generatedvia this code [here](https://drive.google.com/file/d/143FM20plOQqEcY9EF0J9Wk2K2lGK-0hy/view?usp=sharing)
+
 ## Study Notes
 
 This is a notebook file that includes the codes that were not used in the paper, but was used for analyzing the meshes during the development process. This file includes...
